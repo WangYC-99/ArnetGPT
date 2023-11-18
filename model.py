@@ -5,12 +5,9 @@ import json
 
 class OpenAI():
     def __init__(self, gpt_version, openai_key) :
-        self.key = "sk-pB8tpwy2poCvBPm2A7B76aAa317e4a76872fF2C6Bb2f8aA5"
         self.gpt_version = gpt_version
-        # openai.api_key=self.key
+        self.key = openai_key
         openai.api_key=self.key
-        # openai.api_key=openai_key
-        openai.api_base = "https://one-api.glm.ai/v1"
 
     def generate_response_chatgpt(self, query):
         messages = [{'role':'user', 'content' : query}]
