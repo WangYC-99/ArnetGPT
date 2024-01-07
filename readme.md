@@ -1,3 +1,4 @@
+# ‼️ Important: repository moved to https://github.com/RUCKBReasoning/SoAy ‼️
 # SoAy: A Service-oriented APIs Applying Framework of Large Language Models
 > by WangYC
 ## SoAy x AMiner
